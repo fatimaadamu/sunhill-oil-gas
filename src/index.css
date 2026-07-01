@@ -27,14 +27,18 @@
 }
 
 html {
+  max-width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
 }
 
 body {
+  max-width: 100%;
   min-width: 320px;
   min-height: 100svh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 body,
